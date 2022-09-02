@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "properties": {
+     "product": {
+       "productId": {
+        "type": "integer",
+        "description": "Product ID - integer"}
+     },"productName":{"type": "string",
+       "description": "Name of product"
+     }
+     }
+  }

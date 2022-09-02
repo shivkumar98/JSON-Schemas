@@ -1,0 +1,6 @@
+{
+    "$schema": "./Schema.json",
+    "product": {
+        "productId":1,"productName":"cheetos"
+    }
+}
