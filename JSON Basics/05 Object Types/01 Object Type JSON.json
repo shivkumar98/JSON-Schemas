@@ -1,0 +1,7 @@
+{
+    "$schema": "./01 Object Schema.json",
+    "type": "object",
+    "number": 123,
+    "street-name": "street road",
+    "post-code": "b12 1HG"
+}

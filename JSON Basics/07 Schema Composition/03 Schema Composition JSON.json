@@ -1,0 +1,6 @@
+{
+    "$schema": "./03 Schema Composition.json",
+    "allOfProperty": "hello",
+    "anyOfProperty": "anyOf",
+    "oneOfProperty": 5
+}

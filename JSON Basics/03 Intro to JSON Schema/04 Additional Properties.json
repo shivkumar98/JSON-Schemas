@@ -1,0 +1,6 @@
+{
+  "$schema": "./04 Cat Schema Additional Properties.json",
+  "age": 1,
+  "declawed": false,
+  "name": "kitty"
+}

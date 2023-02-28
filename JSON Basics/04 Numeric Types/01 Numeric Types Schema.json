@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/global.json",
+  "properties": {
+    "NumericProperty": {
+      "type": "integer"
+    },
+    "NumericProperty2": {
+      "type": "number"
+    },
+    "MultiplesOfProperty": {
+      "type": "integer",
+      "multipleOf": 2
+    },
+    "RangeProperty": {
+      "type": "number",
+      "minimum": 0
+    }
+  }
+}

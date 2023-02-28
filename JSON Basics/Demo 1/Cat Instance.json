@@ -1,0 +1,14 @@
+{
+    "$schema": "./Cat Schema.json",
+    "name": "Shiv's Cat",
+    "age": 2,
+    "declawed": true,
+    "species": "cat",
+    "food": "tuna",
+    "population": 1,
+    "height": 0,
+    "shiv2": "kumar",
+    "shiv3": "kumar",
+    "allOfProperty": 25,
+    "anyOfProperty": 2
+}

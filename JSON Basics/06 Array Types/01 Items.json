@@ -1,0 +1,4 @@
+{
+    "$schema": "./01 Items Schema.json",
+    "ItemsProperty": [1, 2, "string"]
+}

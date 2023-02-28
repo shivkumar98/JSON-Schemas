@@ -1,0 +1,6 @@
+{
+  "$schema": "./03 Cat Schema.json",
+  "name": "kitty",
+  "age": 2,
+  "declawed": false
+}

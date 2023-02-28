@@ -1,0 +1,7 @@
+{
+  "$schema": "./01 Numeric Types Schema.json",
+  "NumericProperty": 1,
+  "NumericProperty2": 1.2e01,
+  "MultiplesOfProperty": 100,
+  "RangeProperty": -0.00001
+}

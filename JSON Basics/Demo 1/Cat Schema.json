@@ -1,0 +1,67 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "anything"
+        },
+        "age": {
+            "type": "integer",
+            "minimum": 0
+        },
+        "declawed": {
+            "type": "boolean"
+        },
+        "species": {
+            "type": "string",
+            "const": "cat"
+        },
+        "food": {
+            "type": "string",
+            "enum": [
+                "tuna",
+                "milk"
+            ]
+        },
+        "population": {
+            "type": "integer"
+        },
+        "height": {
+            "type": "number",
+            "minimum": 0
+        },
+        "$schema": {
+            "type": "string"
+        },
+        "empty": {
+            "type": "object",
+            "properties": {
+                "someProp": {
+                    "type": "string"
+                }
+            }
+        },
+        "allOfProperty": {
+            "allOf": [{"type": "integer"}, {"minimum": 10}]
+        },
+        "anyOfProperty": {
+            "anyOf": [ {"type": "integer","minimum": 0}, {"type": "integer","maximum": -2}]
+        },
+        "oneOfProperty":{
+            "oneOf": [{"type":"integer", }]
+        }
+    },
+    "patternProperties": {
+        "^shiv*": {
+            "type": "string",
+            "const": "kumar"
+        }
+    },
+    "required": [
+        "name",
+        "age",
+        "declawed"
+    ],
+    
+    "additionalProperties": false
+}

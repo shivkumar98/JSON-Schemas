@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "title": "Cat",
+  "properties": {
+    "$schema": {"type": "string"},
+    "name": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 20
+    },
+    "age": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 30,
+      "description": "Your cat's age in years."
+    },
+    "declawed": { "type": "boolean" },
+    "description": { "type": "string" }
+  },
+  "required": ["name", "age", "declawed" ],
+  "additionalProperties": false
+}

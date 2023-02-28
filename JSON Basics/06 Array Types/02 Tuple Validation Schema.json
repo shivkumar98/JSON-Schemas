@@ -1,0 +1,15 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "properties": {
+        "address": {
+            "type": "array",
+            "prefixItems": [{"type":"integer"}, {"type": "string"}, {"enum":["rd", "road", "avanue", "street"]}],
+            "minItems": 3,
+            "items": false
+        },
+        "address2": {
+            "type": "array",
+            "items": [{"type":"integer"}, {"type": "string"}, {"enum":["rd", "road", "avanue", "street"]}]
+        }
+    }
+}

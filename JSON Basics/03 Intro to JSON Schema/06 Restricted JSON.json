@@ -1,0 +1,5 @@
+{
+    "$schema": "./06 Restriction Schema.json",
+    "constantProperty": "fixed-value",
+    "enumProperty": "value1"
+}
